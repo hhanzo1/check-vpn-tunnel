@@ -7,7 +7,7 @@ Check if a pfsense VPN tunnel is UP and **alert** when it's DOWN.
 * pfsense 2.7.2
 * Uptime Kuma 
 
-In Uptime Kuma create a Push Monitor and note of the Push URL.
+In Uptime Kuma create a Push Monitor and note the Push URL.
 
 ## Installation
 Download script to your pfsense home directory
