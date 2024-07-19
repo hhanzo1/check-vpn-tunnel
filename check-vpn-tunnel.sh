@@ -1,15 +1,15 @@
 #!/bin/sh
 
-## pfSense Uptime Kuma OpenVPN Tunnel Monitor
+## pfsense Uptime Kuma OpenVPN Tunnel Monitor
 #
-# Run this script on pfSense in your home directory and schedule via cron
+# Run this script on pfsense in your home directory and schedule via cron
 #
 #  Check for an IP on the OpenVPN tunnel interface
 #  Ping the interface and store the value
 #  Send the result to the Uptime Kuma Push URL
 #
 # run every minute
-# * * * * * /home/[USERID]/check-tunnel.sh
+# * * * * * /home/[USERID]/check-vpn-tunnel.sh
 #
 
 # Provide the pfSense OpenVPN Tunnel Interface name
