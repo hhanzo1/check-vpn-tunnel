@@ -1,5 +1,5 @@
 # About
-Check if the VPN tunnel at a local pfsense is UP and **alert** when it's DOWN.
+Check if a pfsense VPN tunnel is UP and **alert** when it's DOWN.
 
 # Getting Started
 ## Prerequisites
