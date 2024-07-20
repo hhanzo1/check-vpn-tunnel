@@ -13,19 +13,19 @@ In Uptime Kuma create a Push Monitor and note the Push URL.
 Download script to your pfsense home directory
 ```bash
 wget https://github.com/hhanzo1/check-tunnel/blob/main/check-vpn-tunnel.sh
-chmod +x script.sh
+chmod +x check-vpn-tunnel.sh
 ```
 Update the script with the tunnel name (ie. ovpnc1 or ovpnc2) and the Uptime Kuma Push URL.
 
 # Usage
-Test the script is running as expected by running manually, then scheduled via cron.
+Run the script manually to check it is working as expected, then scheduled via cron.
 
 ## Enable the check script
 ```bash
 # Run every minute
 * * * * * /home/[USERID]/check-vpn-tunnel.sh
 ```
-If the Push URL does not receive a HTTP request within Heart Beat internal (default 60 seconds), an alert can be triggered.
+If the Push URL does not receive a HTTP request within the Heart Beat internal (default 60 seconds), an alert can be triggered.
 
 ## View Badges
 Status and Uptime [Uptime Kuma Badges](https://github.com/louislam/uptime-kuma/wiki/Badge) can be configured.
